@@ -1,0 +1,75 @@
+/* General */
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+header {
+    height: 30%;
+}
+main {
+    height: 50%;
+}
+footer {
+    height: 10%;
+}
+
+/* Header */
+.head {
+    background: radial-gradient(#f69d3c, #3f87a6);
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+nav {
+    position: sticky;
+    top: 10px;
+}
+.nv {
+    display: flex;
+    padding-left: 0;
+    margin-top: 0;
+}
+.nv li {
+    list-style-type: none;
+    border: 1px solid white;
+    flex: 1;
+    color: white;
+    text-align: center;
+}
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+.role {
+    border:1px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    flex: 1;
+}
+.role h2 {
+    border-bottom: 2px solid pink;
+    text-align: center;
+    margin: 0;
+}
+.role p {
+    text-align: left;
+    margin: 10px;
+}
+/* Footer */
+.foot {
+    width: 100%;
+    background-color: #e06fbb5b;
+}
+.foot ul {
+    display: flex;
+}
+.foot li {
+    list-style: none;
+    flex: 1;
+}
+
+
+
