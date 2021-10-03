@@ -64,10 +64,9 @@ main {
 .foot {
     width: 100%;
     background-color: #e06fbb5b;
-    position: absolute;
+    position: relative;
     bottom: 0px;
     height: 60px;
-    margin: 0 -8px;
 }
 .foot ul {
     display: flex;
