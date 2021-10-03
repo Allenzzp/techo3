@@ -2,6 +2,7 @@
 body {
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
+    font-family: "karla", sans-serif;
 }
 header {
     height: 30%;
@@ -24,6 +25,7 @@ h1 {
 nav {
     position: sticky;
     top: 10px;
+    
 }
 .nv {
     display: flex;
@@ -42,6 +44,7 @@ main {
     display: flex;
     flex-direction: column;
     height: 50%;
+   
 }
 .role {
     border:1px solid white;
@@ -60,10 +63,13 @@ main {
     text-align: left;
     margin: 10px;
 }
+.icon-card {
+    float: right;
+}
 /* Footer */
 .foot {
     width: 100%;
-    background-color: #e06fbb5b;
+    background-color: #ee9cd356;
     position: relative;
     bottom: 0px;
     height: 60px;
