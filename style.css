@@ -48,11 +48,13 @@ main {
     border-radius: 10px;
     margin: 10px;
     flex: 1;
+    background: linear-gradient(to right, rgba(19, 19, 18, 0.5), rgba(206, 214, 216, 0.294));
 }
 .role h2 {
     border-bottom: 2px solid pink;
     text-align: center;
     margin: 0;
+    padding-bottom: 5px;
 }
 .role p {
     text-align: left;
@@ -62,6 +64,10 @@ main {
 .foot {
     width: 100%;
     background-color: #e06fbb5b;
+    position: absolute;
+    bottom: 0px;
+    height: 60px;
+    margin: 0 -8px;
 }
 .foot ul {
     display: flex;
