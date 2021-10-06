@@ -10,6 +10,10 @@ header {
 main {
     height: 50%;
 }
+section a, a:visited {
+    text-decoration: none;
+    color: white;
+}
 footer {
     height: 10%;
 }
@@ -39,19 +43,22 @@ nav {
     color: white;
     text-align: center;
 }
+
 /* Main */
 main {
     display: flex;
     flex-direction: column;
-    height: 50%;
-   
 }
 .role {
     border:1px solid white;
     border-radius: 10px;
-    margin: 10px;
+    margin: 10px auto;
+    width: 90%;
     flex: 1;
-    background: linear-gradient(to right, rgba(19, 19, 18, 0.5), rgba(206, 214, 216, 0.294));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
 }
 .role h2 {
     border-bottom: 2px solid pink;
@@ -61,11 +68,73 @@ main {
 }
 .role p {
     text-align: left;
-    margin: 10px;
+    margin: 10px 10px 0 10px;
+    font-size: 1.2rem;
 }
-.icon-card {
+
+.rd-more-icon {
     float: right;
+    margin: 0;
+    padding-right: 10px;
 }
+.founder-card {
+    background-image: url("assets/cards/idea.png");
+    background-color:rgba(236, 231, 231, 0.5);
+}
+.coder-card {
+    background: linear-gradient(45deg, grey, black);
+}
+.designer-card {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+.investor-card {
+    background-image: url("assets/cards/angel.png");
+    background-color: rgba(236, 231, 231, 0.5);
+    
+}
+
+/* card details */
+.role-dts {
+    background-color: rgb(112, 111, 111);
+    margin-top: 10px;
+}
+.role-dts p {
+    margin: 0;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    font-size: 1.2em;
+}
+.role-dts img {
+    width: 40%;
+    height: 50%;
+}
+#founder-dt img, #designer-dt img {
+    float: left;
+    padding-right: 10px;
+}
+#coder-dt img, #investor-dt img {
+    float: right;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Go to top */
+.go-top {
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+}
+
+
+
 /* Footer */
 .foot {
     width: 100%;
@@ -76,6 +145,7 @@ main {
 }
 .foot ul {
     display: flex;
+    margin: 0 1em;
 }
 .foot li {
     list-style: none;
